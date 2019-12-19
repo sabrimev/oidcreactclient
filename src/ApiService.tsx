@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Constants } from '../helpers/Constants';
+import { Constants } from './Constants';
 import AuthService from './AuthService';
 
 export default class ApiService {

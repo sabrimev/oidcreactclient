@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import ApiService from '../services/ApiService';
-import AuthService from '../services/AuthService';
+import ApiService from './ApiService';
+import AuthService from './AuthService';
 
-export default class AppContent extends React.Component<any, any> {
+export default class OidcContent extends React.Component<any, any> {
   public authService: AuthService;
   public apiService: ApiService;
   private shouldCancel: boolean;
