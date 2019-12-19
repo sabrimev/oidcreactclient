@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { ApiService } from '../services/ApiService';
-import { AuthService } from '../services/AuthService';
+import ApiService from '../services/ApiService';
+import AuthService from '../services/AuthService';
 
 export default class AppContent extends React.Component<any, any> {
   public authService: AuthService;

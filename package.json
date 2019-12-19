@@ -1,6 +1,6 @@
 {
   "name": "oidc-react-client-lib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,7 +14,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "typescript": "~3.7.2"
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "start": "react-scripts start",
